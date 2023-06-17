@@ -1,0 +1,82 @@
+*{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+div.a1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+.text-info{
+    font-family: 'Open Sans', sans-serif;
+    color: red;
+    font-size: 16px;
+}
+
+
+.challenge .form{
+    display: flex;
+    justify-content: space-between;
+    background-color:gainsboro;
+    padding: 20px;
+    border-radius: 5px;
+    
+}
+
+.challenge .form .input{
+    width: 83%;
+    height: 30px;
+    font-size: 1rem;
+    border: 2px solid seashell;
+    border-radius: 5px;
+    outline: none;
+}
+.challenge .form .add{
+    width: 15%;
+    height: 30px;
+    font-size: 1rem;
+    color: white;
+    background-color:orangered;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.challenge .tasks{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    gap: 15px;
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: gainsboro;
+}
+
+.challenge .tasks .task{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    font-size: 1rem;
+    padding: 5px;
+    border-radius: 5px;
+}
+.challenge .tasks .task .deleteBtn{
+    width: 40px;
+    height: 12px;
+    text-align: center;
+    line-height: "";
+    background-color: red;
+    color: white;
+    font-size: 0.6rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
